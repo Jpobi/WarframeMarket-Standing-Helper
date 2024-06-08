@@ -1,0 +1,173 @@
+/* static/style.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #C2C2C2;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 2%;
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: lightsteelblue;
+    margin-top: 2%;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+}
+.card-content {
+    position: relative;
+}
+
+.card-content p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    border-radius: 3px;
+}
+.card-content p:nth-of-type(odd) {
+    background-color: #f0f0f0;
+}
+
+
+.card-content a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-content a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+}
+
+.custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.custom-select select {
+    /*hide original select box*/
+    /* display: none; */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-select:after {
+    content: '\25BC'; /*down arrow*/
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    pointer-events: none;
+}
+
+.custom-select select:hover {
+    border-color: #1e90ff;
+}
+
+.custom-select select:focus {
+    border-color: #1e90ff;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.highlighted{
+    background-color: darkturquoise !important;
+    
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    /* background-color: #ffcc66;
+    color: #ffffff; */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.custom-button:hover {
+    background-color: #ffaa33;
+    transform: translateY(-2px);
+}
+
+.custom-button:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+.faction_logo {
+    position: absolute;
+    top: -66px;
+    right: -25px;
+    z-index: 0;
+}

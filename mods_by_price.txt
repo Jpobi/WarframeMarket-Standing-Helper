@@ -1,0 +1,1296 @@
+Name:                     Radiant Finish
+Max Average Sold:         20.0 pl
+Online Avg Offer Price:   29.92 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       50 units
+Factions:                 Arbiters of Hexis,Steel Meridian
+URL:                      https://warframe.market/items/radiant_finish
+
+Name:                     Afterburn
+Max Average Sold:         20.0 pl
+Online Avg Offer Price:   23.9 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       33 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/afterburn
+
+Name:                     Pyroclastic Flow
+Max Average Sold:         18.33 pl
+Online Avg Offer Price:   25.0 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         3 units
+Amount Sold 90days:       64 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/pyroclastic_flow
+
+Name:                     Energy Transfer
+Max Average Sold:         16.0 pl
+Online Avg Offer Price:   30.0 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         7 units
+Amount Sold 90days:       134 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/energy_transfer
+
+Name:                     Hallowed Reckoning
+Max Average Sold:         15.62 pl
+Online Avg Offer Price:   30.75 pl
+Most Repeated Price:      25 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       102 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/hallowed_reckoning
+
+Name:                     Pacifying Bolts
+Max Average Sold:         15.5 pl
+Online Avg Offer Price:   36.25 pl
+Most Repeated Price:      25 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       55 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/pacifying_bolts
+
+Name:                     Merulina Guardian
+Max Average Sold:         15.11 pl
+Online Avg Offer Price:   27.69 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         5 units
+Amount Sold 90days:       127 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/merulina_guardian
+
+Name:                     Tidal Impunity
+Max Average Sold:         15.07 pl
+Online Avg Offer Price:   27.0 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       102 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/tidal_impunity
+
+Name:                     Irradiating Disarm
+Max Average Sold:         15.0 pl
+Online Avg Offer Price:   21.55 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       98 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/irradiating_disarm
+
+Name:                     Healing Flame
+Max Average Sold:         15.0 pl
+Online Avg Offer Price:   22.7 pl
+Most Repeated Price:      12 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       97 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/healing_flame
+
+Name:                     Guided Effigy
+Max Average Sold:         15.0 pl
+Online Avg Offer Price:   22.82 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       25 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/guided_effigy
+
+Name:                     Concentrated Arrow
+Max Average Sold:         15.0 pl
+Online Avg Offer Price:   27.0 pl
+Most Repeated Price:      30 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       119 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/concentrated_arrow
+
+Name:                     Savage Silence
+Max Average Sold:         14.98 pl
+Online Avg Offer Price:   23.71 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         13 units
+Amount Sold 90days:       170 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/savage_silence
+
+Name:                     Mind Freak
+Max Average Sold:         14.79 pl
+Online Avg Offer Price:   28.46 pl
+Most Repeated Price:      25 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       61 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/mind_freak
+
+Name:                     Surging Blades
+Max Average Sold:         14.77 pl
+Online Avg Offer Price:   23.55 pl
+Most Repeated Price:      30 pl
+Amount Sold 48Hs:         3 units
+Amount Sold 90days:       121 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/surging_blades
+
+Name:                     Rift Torrent
+Max Average Sold:         14.75 pl
+Online Avg Offer Price:   19.4 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         7 units
+Amount Sold 90days:       135 units
+Factions:                 Cephalon Suda,Arbiters of Hexis
+URL:                      https://warframe.market/items/rift_torrent
+
+Name:                     Peaceful Provocation
+Max Average Sold:         14.73 pl
+Online Avg Offer Price:   35.29 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         5 units
+Amount Sold 90days:       108 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/peaceful_provocation
+
+Name:                     Shattered Storm
+Max Average Sold:         14.62 pl
+Online Avg Offer Price:   26.25 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       138 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/shattered_storm
+
+Name:                     Gourmand
+Max Average Sold:         14.6 pl
+Online Avg Offer Price:   22.5 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         5 units
+Amount Sold 90days:       127 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/gourmand
+
+Name:                     Cathode Current
+Max Average Sold:         14.51 pl
+Online Avg Offer Price:   28.81 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         19 units
+Amount Sold 90days:       168 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/cathode_current
+
+Name:                     Teeming Virulence
+Max Average Sold:         14.48 pl
+Online Avg Offer Price:   23.71 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       133 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/teeming_virulence
+
+Name:                     Corroding Barrage
+Max Average Sold:         14.45 pl
+Online Avg Offer Price:   21.8 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         25 units
+Amount Sold 90days:       173 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/corroding_barrage
+
+Name:                     Surging Dash
+Max Average Sold:         14.43 pl
+Online Avg Offer Price:   29.46 pl
+Most Repeated Price:      13 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       90 units
+Factions:                 Arbiters of Hexis,Steel Meridian
+URL:                      https://warframe.market/items/surging_dash
+
+Name:                     Safeguard Switch
+Max Average Sold:         14.41 pl
+Online Avg Offer Price:   21.11 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       102 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/safeguard_switch
+
+Name:                     Desiccation's Curse
+Max Average Sold:         14.35 pl
+Online Avg Offer Price:   22.36 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       92 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/desiccations_curse
+
+Name:                     Endless Lullaby
+Max Average Sold:         14.35 pl
+Online Avg Offer Price:   30.32 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       113 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/endless_lullaby
+
+Name:                     Rubble Heap
+Max Average Sold:         14.32 pl
+Online Avg Offer Price:   18.77 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       132 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/rubble_heap
+
+Name:                     Vexing Retaliation
+Max Average Sold:         14.26 pl
+Online Avg Offer Price:   22.92 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       34 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/vexing_retaliation
+
+Name:                     Controlled Slide
+Max Average Sold:         14.25 pl
+Online Avg Offer Price:   26.0 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         3 units
+Amount Sold 90days:       114 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/controlled_slide
+
+Name:                     Curative Undertow
+Max Average Sold:         14.19 pl
+Online Avg Offer Price:   27.75 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       132 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/curative_undertow
+
+Name:                     Elemental Sandstorm
+Max Average Sold:         14.17 pl
+Online Avg Offer Price:   24.75 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         14 units
+Amount Sold 90days:       133 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/elemental_sandstorm
+
+Name:                     Vampiric Grasp
+Max Average Sold:         14.1 pl
+Online Avg Offer Price:   25.09 pl
+Most Repeated Price:      14 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       140 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/vampiric_grasp
+
+Name:                     Blazing Pillage
+Max Average Sold:         14.1 pl
+Online Avg Offer Price:   16.65 pl
+Most Repeated Price:      12 pl
+Amount Sold 48Hs:         22 units
+Amount Sold 90days:       173 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/blazing_pillage
+
+Name:                     Larva Burst
+Max Average Sold:         14.08 pl
+Online Avg Offer Price:   24.92 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       125 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/larva_burst
+
+Name:                     Chaos Sphere
+Max Average Sold:         14.08 pl
+Online Avg Offer Price:   31.62 pl
+Most Repeated Price:      25 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       36 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/chaos_sphere
+
+Name:                     Path of Statues
+Max Average Sold:         14.05 pl
+Online Avg Offer Price:   20.64 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       112 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/path_of_statues
+
+Name:                     Ice Wave Impedance
+Max Average Sold:         14.04 pl
+Online Avg Offer Price:   28.12 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       60 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/ice_wave_impedance
+
+Name:                     Assimilate
+Max Average Sold:         14.03 pl
+Online Avg Offer Price:   27.74 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       115 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/assimilate
+
+Name:                     Balefire Surge
+Max Average Sold:         14.02 pl
+Online Avg Offer Price:   23.55 pl
+Most Repeated Price:      30 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       76 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/balefire_surge
+
+Name:                     Biting Frost
+Max Average Sold:         14.02 pl
+Online Avg Offer Price:   14.95 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         18 units
+Amount Sold 90days:       159 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/biting_frost
+
+Name:                     The Relentless Lost
+Max Average Sold:         14.0 pl
+Online Avg Offer Price:   22.24 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       56 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/the_relentless_lost
+
+Name:                     Safeguard
+Max Average Sold:         14.0 pl
+Online Avg Offer Price:   24.38 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       80 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/safeguard
+
+Name:                     Mending Splinters
+Max Average Sold:         14.0 pl
+Online Avg Offer Price:   30.0 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       56 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/mending_splinters
+
+Name:                     Calm and Frenzy
+Max Average Sold:         14.0 pl
+Online Avg Offer Price:   34.07 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       114 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/calm_and_frenzy
+
+Name:                     Photon Repeater
+Max Average Sold:         13.99 pl
+Online Avg Offer Price:   21.23 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         3 units
+Amount Sold 90days:       74 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/photon_repeater
+
+Name:                     Tesla Bank
+Max Average Sold:         13.95 pl
+Online Avg Offer Price:   23.6 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       79 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/tesla_bank
+
+Name:                     Spectrosiphon
+Max Average Sold:         13.89 pl
+Online Avg Offer Price:   25.9 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         23 units
+Amount Sold 90days:       175 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/spectrosiphon
+
+Name:                     Hallowed Eruption
+Max Average Sold:         13.89 pl
+Online Avg Offer Price:   28.42 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       78 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/hallowed_eruption
+
+Name:                     Piercing Navigator
+Max Average Sold:         13.85 pl
+Online Avg Offer Price:   25.8 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       49 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/piercing_navigator
+
+Name:                     Icy Avalanche
+Max Average Sold:         13.83 pl
+Online Avg Offer Price:   19.27 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         12 units
+Amount Sold 90days:       155 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/icy_avalanche
+
+Name:                     Reinforcing Stomp
+Max Average Sold:         13.8 pl
+Online Avg Offer Price:   24.53 pl
+Most Repeated Price:      14 pl
+Amount Sold 48Hs:         5 units
+Amount Sold 90days:       149 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/reinforcing_stomp
+
+Name:                     Ulfrun's Endurance
+Max Average Sold:         13.76 pl
+Online Avg Offer Price:   20.85 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         11 units
+Amount Sold 90days:       157 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/ulfruns_endurance
+
+Name:                     Repelling Bastille
+Max Average Sold:         13.75 pl
+Online Avg Offer Price:   25.56 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       120 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/repelling_bastille
+
+Name:                     Reaping Chakram
+Max Average Sold:         13.72 pl
+Online Avg Offer Price:   25.07 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       114 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/reaping_chakram
+
+Name:                     Neutron Star
+Max Average Sold:         13.61 pl
+Online Avg Offer Price:   25.19 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         8 units
+Amount Sold 90days:       144 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/neutron_star
+
+Name:                     Smite Infusion
+Max Average Sold:         13.61 pl
+Online Avg Offer Price:   32.64 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       92 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/smite_infusion
+
+Name:                     Empowered Quiver
+Max Average Sold:         13.5 pl
+Online Avg Offer Price:   25.81 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         6 units
+Amount Sold 90days:       140 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/empowered_quiver
+
+Name:                     Furious Javelin
+Max Average Sold:         13.47 pl
+Online Avg Offer Price:   25.0 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         5 units
+Amount Sold 90days:       143 units
+Factions:                 Arbiters of Hexis,Steel Meridian
+URL:                      https://warframe.market/items/furious_javelin
+
+Name:                     Duality
+Max Average Sold:         13.44 pl
+Online Avg Offer Price:   30.53 pl
+Most Repeated Price:      25 pl
+Amount Sold 48Hs:         7 units
+Amount Sold 90days:       118 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/duality
+
+Name:                     Everlasting Ward
+Max Average Sold:         13.4 pl
+Online Avg Offer Price:   27.08 pl
+Most Repeated Price:      25 pl
+Amount Sold 48Hs:         5 units
+Amount Sold 90days:       92 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/everlasting_ward
+
+Name:                     Enveloping Cloud
+Max Average Sold:         13.33 pl
+Online Avg Offer Price:   27.58 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         5 units
+Amount Sold 90days:       85 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/enveloping_cloud
+
+Name:                     Molecular Fission
+Max Average Sold:         13.27 pl
+Online Avg Offer Price:   25.93 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       141 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/molecular_fission
+
+Name:                     Thrall Pact
+Max Average Sold:         13.27 pl
+Online Avg Offer Price:   19.4 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         11 units
+Amount Sold 90days:       151 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/thrall_pact
+
+Name:                     Gilded Truth
+Max Average Sold:         13.23 pl
+Online Avg Offer Price:   22.82 pl
+Most Repeated Price:      13 pl
+Amount Sold 48Hs:         11 units
+Amount Sold 90days:       158 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/gilded_truth
+
+Name:                     Mesmer Shield
+Max Average Sold:         13.15 pl
+Online Avg Offer Price:   20.74 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         39 units
+Amount Sold 90days:       175 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/mesmer_shield
+
+Name:                     Resonance
+Max Average Sold:         13.15 pl
+Online Avg Offer Price:   23.14 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         5 units
+Amount Sold 90days:       106 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/resonance
+
+Name:                     Escape Velocity
+Max Average Sold:         13.14 pl
+Online Avg Offer Price:   22.24 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       52 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/escape_velocity
+
+Name:                     Primal Rage
+Max Average Sold:         13.13 pl
+Online Avg Offer Price:   26.81 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         9 units
+Amount Sold 90days:       170 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/primal_rage
+
+Name:                     Sonic Fracture
+Max Average Sold:         13.06 pl
+Online Avg Offer Price:   24.53 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       110 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/sonic_fracture
+
+Name:                     Lasting Covenant
+Max Average Sold:         13.0 pl
+Online Avg Offer Price:   18.71 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         7 units
+Amount Sold 90days:       145 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/lasting_covenant
+
+Name:                     Freeze Force
+Max Average Sold:         13.0 pl
+Online Avg Offer Price:   20.5 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       58 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/freeze_force
+
+Name:                     Smoke Shadow
+Max Average Sold:         12.91 pl
+Online Avg Offer Price:   24.0 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         11 units
+Amount Sold 90days:       142 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/smoke_shadow
+
+Name:                     Stinging Truth
+Max Average Sold:         12.85 pl
+Online Avg Offer Price:   26.25 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       24 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/stinging_truth
+
+Name:                     Tectonic Fracture
+Max Average Sold:         12.76 pl
+Online Avg Offer Price:   23.9 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       29 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/tectonic_fracture
+
+Name:                     Savior Decoy
+Max Average Sold:         12.76 pl
+Online Avg Offer Price:   17.56 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       35 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/savior_decoy
+
+Name:                     Resonating Quake
+Max Average Sold:         12.75 pl
+Online Avg Offer Price:   25.07 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         3 units
+Amount Sold 90days:       89 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/resonating_quake
+
+Name:                     Celestial Stomp
+Max Average Sold:         12.74 pl
+Online Avg Offer Price:   29.4 pl
+Most Repeated Price:      25 pl
+Amount Sold 48Hs:         5 units
+Amount Sold 90days:       85 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/celestial_stomp
+
+Name:                     Ore Gaze
+Max Average Sold:         12.73 pl
+Online Avg Offer Price:   18.79 pl
+Most Repeated Price:      12 pl
+Amount Sold 48Hs:         7 units
+Amount Sold 90days:       133 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/ore_gaze
+
+Name:                     Capacitance
+Max Average Sold:         12.7 pl
+Online Avg Offer Price:   20.2 pl
+Most Repeated Price:      14 pl
+Amount Sold 48Hs:         24 units
+Amount Sold 90days:       175 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/capacitance
+
+Name:                     Reactive Storm
+Max Average Sold:         12.67 pl
+Online Avg Offer Price:   20.55 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         19 units
+Amount Sold 90days:       170 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/reactive_storm
+
+Name:                     Catapult
+Max Average Sold:         12.67 pl
+Online Avg Offer Price:   28.0 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       75 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/catapult
+
+Name:                     Blending Talons
+Max Average Sold:         12.6 pl
+Online Avg Offer Price:   20.07 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         9 units
+Amount Sold 90days:       153 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/blending_talons
+
+Name:                     Tribunal
+Max Average Sold:         12.59 pl
+Online Avg Offer Price:   23.25 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       69 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/tribunal
+
+Name:                     Infiltrate
+Max Average Sold:         12.57 pl
+Online Avg Offer Price:   17.35 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         11 units
+Amount Sold 90days:       154 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/infiltrate
+
+Name:                     Abundant Mutation
+Max Average Sold:         12.53 pl
+Online Avg Offer Price:   22.84 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         9 units
+Amount Sold 90days:       137 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/abundant_mutation
+
+Name:                     Hearty Nourishment
+Max Average Sold:         12.5 pl
+Online Avg Offer Price:   22.54 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       107 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/hearty_nourishment
+
+Name:                     Warding Thurible
+Max Average Sold:         12.48 pl
+Online Avg Offer Price:   21.8 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       57 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/warding_thurible
+
+Name:                     Muzzle Flash
+Max Average Sold:         12.46 pl
+Online Avg Offer Price:   18.13 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         12 units
+Amount Sold 90days:       117 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/muzzle_flash
+
+Name:                     Blood Forge
+Max Average Sold:         12.45 pl
+Online Avg Offer Price:   22.83 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       84 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/blood_forge
+
+Name:                     Iron Shrapnel
+Max Average Sold:         12.44 pl
+Online Avg Offer Price:   25.27 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         9 units
+Amount Sold 90days:       155 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/iron_shrapnel
+
+Name:                     Fused Reservoir
+Max Average Sold:         12.44 pl
+Online Avg Offer Price:   14.15 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         42 units
+Amount Sold 90days:       178 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/fused_reservoir
+
+Name:                     Titanic Rumbler
+Max Average Sold:         12.41 pl
+Online Avg Offer Price:   23.0 pl
+Most Repeated Price:      17 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       57 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/titanic_rumbler
+
+Name:                     Blinding Reave
+Max Average Sold:         12.39 pl
+Online Avg Offer Price:   20.23 pl
+Most Repeated Price:      25 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       60 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/blinding_reave
+
+Name:                     Hall of Malevolence
+Max Average Sold:         12.35 pl
+Online Avg Offer Price:   15.67 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         28 units
+Amount Sold 90days:       172 units
+Factions:                 Cephalon Suda,Arbiters of Hexis
+URL:                      https://warframe.market/items/hall_of_malevolence
+
+Name:                     Insatiable
+Max Average Sold:         12.31 pl
+Online Avg Offer Price:   19.05 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         8 units
+Amount Sold 90days:       136 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/insatiable
+
+Name:                     Antimatter Absorb
+Max Average Sold:         12.31 pl
+Online Avg Offer Price:   24.38 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       78 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/antimatter_absorb
+
+Name:                     Neutralizing Justice
+Max Average Sold:         12.3 pl
+Online Avg Offer Price:   23.1 pl
+Most Repeated Price:      12 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       101 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/neutralizing_justice
+
+Name:                     Conductor
+Max Average Sold:         12.28 pl
+Online Avg Offer Price:   28.88 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         6 units
+Amount Sold 90days:       138 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/conductor
+
+Name:                     Staggering Shield
+Max Average Sold:         12.25 pl
+Online Avg Offer Price:   23.75 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       62 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/staggering_shield
+
+Name:                     Fatal Teleport
+Max Average Sold:         12.25 pl
+Online Avg Offer Price:   25.33 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       123 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/fatal_teleport
+
+Name:                     Rising Storm
+Max Average Sold:         12.23 pl
+Online Avg Offer Price:   25.69 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       118 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/rising_storm
+
+Name:                     Venari Bodyguard
+Max Average Sold:         12.2 pl
+Online Avg Offer Price:   25.14 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         3 units
+Amount Sold 90days:       122 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/venari_bodyguard
+
+Name:                     Piercing Roar
+Max Average Sold:         12.15 pl
+Online Avg Offer Price:   21.14 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       94 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/piercing_roar
+
+Name:                     Dread Ward
+Max Average Sold:         12.13 pl
+Online Avg Offer Price:   20.64 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       75 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/dread_ward
+
+Name:                     Total Eclipse
+Max Average Sold:         12.12 pl
+Online Avg Offer Price:   19.0 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         24 units
+Amount Sold 90days:       171 units
+Factions:                 Cephalon Suda,Arbiters of Hexis
+URL:                      https://warframe.market/items/total_eclipse
+
+Name:                     Partitioned Mallet
+Max Average Sold:         12.1 pl
+Online Avg Offer Price:   28.08 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       99 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/partitioned_mallet
+
+Name:                     Repair Dispensary
+Max Average Sold:         12.08 pl
+Online Avg Offer Price:   20.2 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       50 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/repair_dispensary
+
+Name:                     Rift Haven
+Max Average Sold:         12.07 pl
+Online Avg Offer Price:   21.18 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       47 units
+Factions:                 Cephalon Suda,Arbiters of Hexis
+URL:                      https://warframe.market/items/rift_haven
+
+Name:                     Venom Dose
+Max Average Sold:         12.06 pl
+Online Avg Offer Price:   13.1 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         39 units
+Amount Sold 90days:       175 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/venom_dose
+
+Name:                     Exothermic
+Max Average Sold:         12.04 pl
+Online Avg Offer Price:   19.84 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         3 units
+Amount Sold 90days:       149 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/exothermic
+
+Name:                     Negation Swarm
+Max Average Sold:         12.03 pl
+Online Avg Offer Price:   22.15 pl
+Most Repeated Price:      12 pl
+Amount Sold 48Hs:         6 units
+Amount Sold 90days:       109 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/negation_swarm
+
+Name:                     Cataclysmic Continuum
+Max Average Sold:         12.02 pl
+Online Avg Offer Price:   21.5 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       103 units
+Factions:                 Cephalon Suda,Arbiters of Hexis
+URL:                      https://warframe.market/items/cataclysmic_continuum
+
+Name:                     Ballistic Bullseye
+Max Average Sold:         12.0 pl
+Online Avg Offer Price:   21.42 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       86 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/ballistic_bullseye
+
+Name:                     Contagion Cloud
+Max Average Sold:         11.96 pl
+Online Avg Offer Price:   22.17 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         9 units
+Amount Sold 90days:       149 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/contagion_cloud
+
+Name:                     Mach Crash
+Max Average Sold:         11.9 pl
+Online Avg Offer Price:   24.6 pl
+Most Repeated Price:      25 pl
+Amount Sold 48Hs:         7 units
+Amount Sold 90days:       170 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/mach_crash
+
+Name:                     Ironclad Charge
+Max Average Sold:         11.89 pl
+Online Avg Offer Price:   23.62 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         7 units
+Amount Sold 90days:       157 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/ironclad_charge
+
+Name:                     Hushed Invisibility
+Max Average Sold:         11.87 pl
+Online Avg Offer Price:   20.94 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       112 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/hushed_invisibility
+
+Name:                     Pilfering Swarm
+Max Average Sold:         11.85 pl
+Online Avg Offer Price:   13.4 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         35 units
+Amount Sold 90days:       178 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/pilfering_swarm
+
+Name:                     Shock Trooper
+Max Average Sold:         11.83 pl
+Online Avg Offer Price:   18.72 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         19 units
+Amount Sold 90days:       171 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/shock_trooper
+
+Name:                     Immolated Radiance
+Max Average Sold:         11.8 pl
+Online Avg Offer Price:   21.4 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       33 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/immolated_radiance
+
+Name:                     Avenging Truth
+Max Average Sold:         11.7 pl
+Online Avg Offer Price:   23.12 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       69 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/avenging_truth
+
+Name:                     Fireball Frenzy
+Max Average Sold:         11.53 pl
+Online Avg Offer Price:   21.58 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       70 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/fireball_frenzy
+
+Name:                     Chromatic Blade
+Max Average Sold:         11.48 pl
+Online Avg Offer Price:   14.6 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         20 units
+Amount Sold 90days:       168 units
+Factions:                 Arbiters of Hexis,Steel Meridian
+URL:                      https://warframe.market/items/chromatic_blade
+
+Name:                     Explosive Legerdemain
+Max Average Sold:         11.43 pl
+Online Avg Offer Price:   22.0 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         30 units
+Amount Sold 90days:       175 units
+Factions:                 Cephalon Suda,Arbiters of Hexis
+URL:                      https://warframe.market/items/explosive_legerdemain
+
+Name:                     Critical Surge
+Max Average Sold:         11.34 pl
+Online Avg Offer Price:   23.39 pl
+Most Repeated Price:      8 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       99 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/critical_surge
+
+Name:                     Phoenix Renewal
+Max Average Sold:         11.34 pl
+Online Avg Offer Price:   31.57 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         3 units
+Amount Sold 90days:       105 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/phoenix_renewal
+
+Name:                     Regenerative Molt
+Max Average Sold:         11.14 pl
+Online Avg Offer Price:   19.18 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         4 units
+Amount Sold 90days:       139 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/regenerative_molt
+
+Name:                     Shattering Justice
+Max Average Sold:         11.11 pl
+Online Avg Offer Price:   19.29 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       56 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/shattering_justice
+
+Name:                     Thermal Transfer
+Max Average Sold:         11.09 pl
+Online Avg Offer Price:   22.72 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         6 units
+Amount Sold 90days:       127 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/thermal_transfer
+
+Name:                     Mesa's Waltz
+Max Average Sold:         11.08 pl
+Online Avg Offer Price:   14.25 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         31 units
+Amount Sold 90days:       178 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/mesas_waltz
+
+Name:                     Scattered Justice
+Max Average Sold:         11.04 pl
+Online Avg Offer Price:   19.61 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         24 units
+Amount Sold 90days:       139 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/scattered_justice
+
+Name:                     Shocking Speed
+Max Average Sold:         10.99 pl
+Online Avg Offer Price:   25.11 pl
+Most Repeated Price:      20 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       116 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/shocking_speed
+
+Name:                     Transistor Shield
+Max Average Sold:         10.84 pl
+Online Avg Offer Price:   22.64 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       58 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/transistor_shield
+
+Name:                     Accumulating Whipclaw
+Max Average Sold:         10.83 pl
+Online Avg Offer Price:   9.95 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         45 units
+Amount Sold 90days:       178 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/accumulating_whipclaw
+
+Name:                     Revealing Spores
+Max Average Sold:         10.77 pl
+Online Avg Offer Price:   22.5 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       80 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/revealing_spores
+
+Name:                     Entropy Detonation
+Max Average Sold:         10.5 pl
+Online Avg Offer Price:   22.8 pl
+Most Repeated Price:      9 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       33 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/entropy_detonation
+
+Name:                     Chilling Globe
+Max Average Sold:         10.41 pl
+Online Avg Offer Price:   19.65 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         2 units
+Amount Sold 90days:       107 units
+Factions:                 Cephalon Suda,Steel Meridian
+URL:                      https://warframe.market/items/chilling_globe
+
+Name:                     Blade of Truth
+Max Average Sold:         10.36 pl
+Online Avg Offer Price:   21.25 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       68 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/blade_of_truth
+
+Name:                     Justice Blades
+Max Average Sold:         10.22 pl
+Online Avg Offer Price:   20.2 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       32 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/justice_blades
+
+Name:                     Entropy Flight
+Max Average Sold:         10.19 pl
+Online Avg Offer Price:   24.0 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       24 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/entropy_flight
+
+Name:                     Seeking Shuriken
+Max Average Sold:         10.17 pl
+Online Avg Offer Price:   24.61 pl
+Most Repeated Price:      15 pl
+Amount Sold 48Hs:         10 units
+Amount Sold 90days:       151 units
+Factions:                 Arbiters of Hexis
+URL:                      https://warframe.market/items/seeking_shuriken
+
+Name:                     Pilfering Strangledome
+Max Average Sold:         10.06 pl
+Online Avg Offer Price:   11.3 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         45 units
+Amount Sold 90days:       178 units
+Factions:                 Steel Meridian
+URL:                      https://warframe.market/items/pilfering_strangledome
+
+Name:                     Entropy Spike
+Max Average Sold:         10.0 pl
+Online Avg Offer Price:   26.0 pl
+Most Repeated Price:      9 pl
+Amount Sold 48Hs:         0 units
+Amount Sold 90days:       30 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/entropy_spike
+
+Name:                     Entropy Burst
+Max Average Sold:         9.68 pl
+Online Avg Offer Price:   25.0 pl
+Most Repeated Price:      10 pl
+Amount Sold 48Hs:         1 units
+Amount Sold 90days:       45 units
+Factions:                 Cephalon Suda
+URL:                      https://warframe.market/items/entropy_burst
+

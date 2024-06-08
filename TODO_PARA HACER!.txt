@@ -1,0 +1,33 @@
+#AUTO-VENDER!
+#Mostrar el precio max vendido para 48hs y 90dias (y capaz su fecha y/o cuantos se vendieron en aprox el mismo rango de 2 o 3 pl)
+#Que si el factionnames de un mod tiene una coma te muestre un (+) al lado del logo de la faction
+
+#Faction icons con fonts de https://fontello.com/
+#"update THIS mod to the database" button en cada CARD
+#Update solo la lista seleccionada/visible en la base de datos
+#Update loading message (y porcentaje?) modal
+#TODO: Tener las otras factions
+#Mod Images (con https://github.com/WFCD/mod-generator  ?)
+#TODO: TENER UN INPUT QUE INGRESO UN NOMBRE DE UN ITEM Y ME MUESTRA LA CARD PARA ESE ITEM (SIN FACTION) (o lista de items)
+#TODO: Multiselect de Factions (lpm)
+#Obtener lista de mods o items en el inventario (HARD)
+#un touch más responsive
+CORRER ENVIRONMENT ANTES DE EJECUTAR!
+env/activate
+
+#hacer pwa
+#hostear
+
+EJECUTABLE DESDE CONSOLA!: 
+python .\getMarket.py jolt
+
+#ejecutar app:
+python app.py
+
+#ejecutar público en RED LOCAL (usar en el celu):
+flask run --host=0.0.0.0
+
+
+
+#DONE:  HACER SITIO WEB ELEGÍS ENTRE LA LISTA DE FACTIONS Y TE DÁ LOS RESULTADOS PARA CUALES VALE MÁS LA PENA GASTAR STANDING
+#DONE:* GUARDAR Y MOMSTRAR cuantos PUNTOS HAY EN LAS ULTIMAS48HS (Y 90 DIAS) - Y ordenar por más vendidos

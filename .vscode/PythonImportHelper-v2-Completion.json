@@ -1,0 +1,421 @@
+[
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "update_database",
+        "importPath": "wfmapi",
+        "description": "wfmapi",
+        "isExtraImport": true,
+        "detail": "wfmapi",
+        "documentation": {}
+    },
+    {
+        "label": "print_item",
+        "importPath": "wfmapi",
+        "description": "wfmapi",
+        "isExtraImport": true,
+        "detail": "wfmapi",
+        "documentation": {}
+    },
+    {
+        "label": "update_mod_prices",
+        "importPath": "wfmapi",
+        "description": "wfmapi",
+        "isExtraImport": true,
+        "detail": "wfmapi",
+        "documentation": {}
+    },
+    {
+        "label": "print_item",
+        "importPath": "wfmapi",
+        "description": "wfmapi",
+        "isExtraImport": true,
+        "detail": "wfmapi",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "pywmapi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pywmapi",
+        "description": "pywmapi",
+        "detail": "pywmapi",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "pywmapi.common",
+        "description": "pywmapi.common",
+        "isExtraImport": true,
+        "detail": "pywmapi.common",
+        "documentation": {}
+    },
+    {
+        "label": "Platform",
+        "importPath": "pywmapi.common",
+        "description": "pywmapi.common",
+        "isExtraImport": true,
+        "detail": "pywmapi.common",
+        "documentation": {}
+    },
+    {
+        "label": "OrderType",
+        "importPath": "pywmapi.common",
+        "description": "pywmapi.common",
+        "isExtraImport": true,
+        "detail": "pywmapi.common",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "pywmapi.auth",
+        "description": "pywmapi.auth",
+        "isExtraImport": true,
+        "detail": "pywmapi.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UserShort",
+        "importPath": "pywmapi.auth",
+        "description": "pywmapi.auth",
+        "isExtraImport": true,
+        "detail": "pywmapi.auth",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "pywmapi.statistics.models",
+        "description": "pywmapi.statistics.models",
+        "isExtraImport": true,
+        "detail": "pywmapi.statistics.models",
+        "documentation": {}
+    },
+    {
+        "label": "StatisticClosed",
+        "importPath": "pywmapi.statistics.models",
+        "description": "pywmapi.statistics.models",
+        "isExtraImport": true,
+        "detail": "pywmapi.statistics.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModDTO",
+        "importPath": "models.ModDTO",
+        "description": "models.ModDTO",
+        "isExtraImport": true,
+        "detail": "models.ModDTO",
+        "documentation": {}
+    },
+    {
+        "label": "ModDTO",
+        "importPath": "models.ModDTO",
+        "description": "models.ModDTO",
+        "isExtraImport": true,
+        "detail": "models.ModDTO",
+        "documentation": {}
+    },
+    {
+        "label": "ModDTO",
+        "kind": 6,
+        "importPath": "models.ModDTO",
+        "description": "models.ModDTO",
+        "peekOfCode": "class ModDTO:\n    def __init__(self, id: int, url_name: str):\n        self.id = id\n        self.url_name = url_name\n        self.name = url_name.replace(\"_\", \" \")\n        self.avg_offer = 0.0\n        self.most_repeated_offer = 0.0\n        self.avg_48h = 0.0\n        self.amount_48 = 0\n        self.avg_90d = 0.0",
+        "detail": "models.ModDTO",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def home():\n    # update_database()\n    conn = sqlite3.connect('mod_database.db')\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, name FROM Faction\")\n    factions = cursor.fetchall()\n    cursor.execute(\"\"\"\n    SELECT \n        Mod.name, ",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_mods_by_faction",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_mods_by_faction(faction_id,orderType=\"demand\"):\n    faction_filter = \"\" if faction_id == \"0\" else \"WHERE Faction.id = {}\".format(faction_id)\n    queryString = \"\"\"\n    SELECT \n        Mod.name, \n        ROUND(MAX(Price48hs,Price90d), 2) AS MaxAvgSold,\n        ROUND(offerPrice, 2) AS offerPrice,\n        ROUND(mostRepeatedOffer, 2) AS mostRepeatedOffer,\n        GROUP_CONCAT(Faction.name) as factionNames,\n        Mod.url_name,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "updateMods",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def updateMods():\n    try:\n        update_database()\n        return \"ok\"\n    except Exception as e:\n        return str(e), 500\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef home():\n    # update_database()\n    conn = sqlite3.connect('mod_database.db')\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, name FROM Faction\")\n    factions = cursor.fetchall()\n    cursor.execute(\"\"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "format_string",
+        "kind": 2,
+        "importPath": "createDatabase",
+        "description": "createDatabase",
+        "peekOfCode": "def format_string(input_string):\n    # Convert uppercase letters to lowercase\n    lowercase_string = input_string.lower()\n    # Replace spaces with underscores\n    formatted_string = re.sub(r'\\s+', '_', lowercase_string)\n    formatted_string=formatted_string.replace(\"'\", \"\")\n    return formatted_string\n# Create a SQLite database connection\nconn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()",
+        "detail": "createDatabase",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "createDatabase",
+        "description": "createDatabase",
+        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n# Create the Mod table\ncursor.execute('''CREATE TABLE IF NOT EXISTS Mod (\n                    id INTEGER PRIMARY KEY,\n                    name TEXT UNIQUE,\n                    url_name TEXT UNIQUE,\n                    Price48hs REAL,\n                    Price90d REAL\n                )''')",
+        "detail": "createDatabase",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "createDatabase",
+        "description": "createDatabase",
+        "peekOfCode": "cursor = conn.cursor()\n# Create the Mod table\ncursor.execute('''CREATE TABLE IF NOT EXISTS Mod (\n                    id INTEGER PRIMARY KEY,\n                    name TEXT UNIQUE,\n                    url_name TEXT UNIQUE,\n                    Price48hs REAL,\n                    Price90d REAL\n                )''')\n# Create the Faction table",
+        "detail": "createDatabase",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "getMarket",
+        "description": "getMarket",
+        "peekOfCode": "def main(item_url_name):\n    mod = ModDTO(0,url_name=item_url_name)\n    update_mod_prices(mod)\n    print_item(mod)\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser(description=\"Fetch and display Warframe market statistics.\")\n    parser.add_argument(\"item_url_name\", type=str, help=\"The URL name of the item to fetch statistics for.\")\n    args = parser.parse_args()\n    main(args.item_url_name)",
+        "detail": "getMarket",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "report_by_demand",
+        "description": "report_by_demand",
+        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id ",
+        "detail": "report_by_demand",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "report_by_demand",
+        "description": "report_by_demand",
+        "peekOfCode": "cursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id \n    JOIN Faction ON Mod_Faction.faction_id = Faction.id ",
+        "detail": "report_by_demand",
+        "documentation": {}
+    },
+    {
+        "label": "mods",
+        "kind": 5,
+        "importPath": "report_by_demand",
+        "description": "report_by_demand",
+        "peekOfCode": "mods = cursor.fetchall()\n# Define the file path\noutput_file = 'mods_by_demand.txt'\n# Write mods information to the text file\nwith open(output_file, 'w') as file:\n    for mod in mods:\n        name, MaxAvgSold,offerPrice,mostRepeatedOffer, factions, url_name, amount48, amount90 = mod\n        url = f\"https://warframe.market/items/{url_name}\"\n        file.write(f\"{'Name:':<25} {name}\\n\")\n        file.write(f\"{'Max Average Sold:':<25} {MaxAvgSold.__round__(2)} pl\\n\")",
+        "detail": "report_by_demand",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "kind": 5,
+        "importPath": "report_by_demand",
+        "description": "report_by_demand",
+        "peekOfCode": "output_file = 'mods_by_demand.txt'\n# Write mods information to the text file\nwith open(output_file, 'w') as file:\n    for mod in mods:\n        name, MaxAvgSold,offerPrice,mostRepeatedOffer, factions, url_name, amount48, amount90 = mod\n        url = f\"https://warframe.market/items/{url_name}\"\n        file.write(f\"{'Name:':<25} {name}\\n\")\n        file.write(f\"{'Max Average Sold:':<25} {MaxAvgSold.__round__(2)} pl\\n\")\n        file.write(f\"{'Online Avg Offer Price:':<25} {offerPrice.__round__(2)} pl\\n\")\n        file.write(f\"{'Most Repeated Price:':<25} {mostRepeatedOffer} pl\\n\")",
+        "detail": "report_by_demand",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "report_by_price",
+        "description": "report_by_price",
+        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id ",
+        "detail": "report_by_price",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "report_by_price",
+        "description": "report_by_price",
+        "peekOfCode": "cursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id \n    JOIN Faction ON Mod_Faction.faction_id = Faction.id ",
+        "detail": "report_by_price",
+        "documentation": {}
+    },
+    {
+        "label": "mods",
+        "kind": 5,
+        "importPath": "report_by_price",
+        "description": "report_by_price",
+        "peekOfCode": "mods = cursor.fetchall()\n# Define the file path\noutput_file = 'mods_by_price.txt'\n# Write mods information to the text file\nwith open(output_file, 'w') as file:\n    for mod in mods:\n        name, MaxAvgSold,offerPrice,mostRepeatedOffer, factions, url_name, amount48, amount90 = mod\n        url = f\"https://warframe.market/items/{url_name}\"\n        file.write(f\"{'Name:':<25} {name}\\n\")\n        file.write(f\"{'Max Average Sold:':<25} {MaxAvgSold.__round__(2)} pl\\n\")",
+        "detail": "report_by_price",
+        "documentation": {}
+    },
+    {
+        "label": "output_file",
+        "kind": 5,
+        "importPath": "report_by_price",
+        "description": "report_by_price",
+        "peekOfCode": "output_file = 'mods_by_price.txt'\n# Write mods information to the text file\nwith open(output_file, 'w') as file:\n    for mod in mods:\n        name, MaxAvgSold,offerPrice,mostRepeatedOffer, factions, url_name, amount48, amount90 = mod\n        url = f\"https://warframe.market/items/{url_name}\"\n        file.write(f\"{'Name:':<25} {name}\\n\")\n        file.write(f\"{'Max Average Sold:':<25} {MaxAvgSold.__round__(2)} pl\\n\")\n        file.write(f\"{'Online Avg Offer Price:':<25} {offerPrice.__round__(2)} pl\\n\")\n        file.write(f\"{'Most Repeated Price:':<25} {mostRepeatedOffer} pl\\n\")",
+        "detail": "report_by_price",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_average_avg_price",
+        "kind": 2,
+        "importPath": "wfmapi",
+        "description": "wfmapi",
+        "peekOfCode": "def calculate_average_avg_price(statistics: List[StatisticClosed]) -> float:\n    total_avg_price = sum(stat.avg_price for stat in statistics)\n    return total_avg_price / max(len(statistics), 1)\ndef most_repeated_number(numbers):\n    counts = Counter(numbers)\n    try:\n        most_common_number, count = counts.most_common(1)[0]\n    except IndexError:\n        most_common_number, count = None, None\n    return most_common_number",
+        "detail": "wfmapi",
+        "documentation": {}
+    },
+    {
+        "label": "most_repeated_number",
+        "kind": 2,
+        "importPath": "wfmapi",
+        "description": "wfmapi",
+        "peekOfCode": "def most_repeated_number(numbers):\n    counts = Counter(numbers)\n    try:\n        most_common_number, count = counts.most_common(1)[0]\n    except IndexError:\n        most_common_number, count = None, None\n    return most_common_number\ndef print_item(mod: ModDTO):\n    print(\"Name: \", mod.name.upper())\n    print(f\"{'48hs avg:':<20} {round(mod.avg_48h, 2):<10} {'pl':<10}\")",
+        "detail": "wfmapi",
+        "documentation": {}
+    },
+    {
+        "label": "print_item",
+        "kind": 2,
+        "importPath": "wfmapi",
+        "description": "wfmapi",
+        "peekOfCode": "def print_item(mod: ModDTO):\n    print(\"Name: \", mod.name.upper())\n    print(f\"{'48hs avg:':<20} {round(mod.avg_48h, 2):<10} {'pl':<10}\")\n    print(f\"{'48hs amount:':<20} {mod.amount_48:<10} {'units':<10}\")\n    print(f\"{'90days avg:':<20} {round(mod.avg_90d, 2):<10} {'pl':<10}\")\n    print(f\"{'90days amount:':<20} {mod.amount_90:<10} {'units':<10}\")\n    print(f\"{'avgOffer:':<20} {round(mod.avg_offer, 2):<10} {'pl':<10}\")\n    print(f\"{'mostRepeatedOffer:':<20} {round(mod.most_repeated_offer, 2):<10} {'pl':<10}\")\n    print('-' * 40)\ndef update_mod_prices(mod: ModDTO):",
+        "detail": "wfmapi",
+        "documentation": {}
+    },
+    {
+        "label": "update_mod_prices",
+        "kind": 2,
+        "importPath": "wfmapi",
+        "description": "wfmapi",
+        "peekOfCode": "def update_mod_prices(mod: ModDTO):\n    offers = wm.orders.get_orders(mod.url_name, Platform.pc)\n    offers_online = [offer for offer in offers if offer.order_type == OrderType.sell and (offer.user.status == UserShort.Status.online or offer.user.status == UserShort.Status.ingame)]\n    offers_online = sorted(offers_online, key=lambda x: x.platinum)[:20]\n    mod.avg_offer = sum(offer.platinum for offer in offers_online) / max(len(offers_online), 1)\n    mod.most_repeated_offer = most_repeated_number([offer.platinum for offer in offers_online])\n    stats = wm.statistics.get_statistic(mod.url_name)\n    mod.avg_48h = calculate_average_avg_price(stats.closed_48h)\n    mod.amount_48 = len(stats.closed_48h)\n    mod.avg_90d = calculate_average_avg_price(stats.closed_90d)",
+        "detail": "wfmapi",
+        "documentation": {}
+    },
+    {
+        "label": "update_database",
+        "kind": 2,
+        "importPath": "wfmapi",
+        "description": "wfmapi",
+        "peekOfCode": "def update_database():\n    conn = sqlite3.connect('mod_database.db')\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, url_name FROM Mod\")\n    mod_tuples = cursor.fetchall()\n    mods = [ModDTO(id, url_name) for id, url_name in mod_tuples]\n    for mod in mods:\n        update_mod_prices(mod)\n        print_item(mod)\n        cursor.execute(",
+        "detail": "wfmapi",
+        "documentation": {}
+    }
+]

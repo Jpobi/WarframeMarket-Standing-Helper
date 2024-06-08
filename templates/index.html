@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warframe Faction selector</title>
+    <link rel="manifest" href="/static/manifest.json">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+</head>
+<body>
+    <h1>Choose a Faction</h1>
+    <div class="form-container">
+        <form>
+            <button type="button" class="custom-button" onclick="updateTable()">Force Update Table</button>
+            <div class="custom-select-wrapper">
+                <div class="custom-select">
+                    <select title="factions" name="factions" id="factions">
+                        <option value="0">All</option>
+                        {% for faction in factions %}
+                            <option value="{{ faction.id }}">{{ faction.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="custom-select-wrapper">
+                <div class="custom-select">
+                    <select title="orderType" name="orderType" id="orderType">
+                            <option value="demand">Demand</option>
+                            <option value="price">Price</option>
+                    </select>
+                </div>
+            </div>
+            <button type="button" id="fetch-button" class="custom-button" onclick="updateDatabase()">Fetch WFMarket</button>
+        </form>
+        <div class="cards-container" id="cards-container">
+            {% for mod in mods %}
+                {% set factionLogoSrc = "/static/faction_logos/" + mod.factionId|string + ".png" %}
+                <div class="card" factionId="{{ mod.factionId }}">
+                    <h2>{{mod.name}}</h2>
+                    <div class="card-content">
+                        <p><strong>Max Average Sold:</strong> {{mod.MaxAvgSold}} pl</p>
+                        <p><strong>Online Avg Offer Price:</strong> {{mod.offerPrice}} pl</p>
+                        <p><strong>Most Repeated Price:</strong> {{mod.mostRepeatedOffer}} pl</p>
+                        <p><strong>Amount Sold 48Hs:</strong> {{mod.amount48}} units</p>
+                        <p><strong>Amount Sold 90days:</strong> {{mod.amount90}} units</p>
+                        <p><strong>Factions:</strong> {{mod.factionNames}}</p>
+                        <p><strong>URL:</strong> <a rel="noopener" href="https://warframe.market/items/{{ mod.url_name }}" target="_blank">warframe.market</a></p>
+                        <img class="faction_logo" src="{{ factionLogoSrc }}" alt="Faction Logo">
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
