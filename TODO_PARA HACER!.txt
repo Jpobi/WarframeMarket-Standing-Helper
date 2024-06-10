@@ -1,4 +1,5 @@
-#AUTO-VENDER!
+#DATO DE "SIGUIENTE PRECIO APENAS MAS ALTO QUE EL MAS REPETIDO" 
+#AUTO-VENDER! (A ESE ↑ PRECIO -1PL)
 #Mostrar el precio max vendido para 48hs y 90dias (y capaz su fecha y/o cuantos se vendieron en aprox el mismo rango de 2 o 3 pl)
 #Que si el factionnames de un mod tiene una coma te muestre un (+) al lado del logo de la faction
 
@@ -15,8 +16,7 @@
 CORRER ENVIRONMENT ANTES DE EJECUTAR!
 env/activate
 
-#hacer pwa
-#hostear
+#HOSTING
 
 EJECUTABLE DESDE CONSOLA!: 
 python .\getMarket.py jolt
