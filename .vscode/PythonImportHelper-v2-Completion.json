@@ -252,7 +252,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def updateMods():\n    try:\n        update_database()\n        return \"ok\"\n    except Exception as e:\n        return str(e), 500\nif __name__ == '__main__':\n    app.run(debug=True)",
+        "peekOfCode": "def updateMods():\n    try:\n        update_database()\n        return \"ok\"\n    except Exception as e:\n        return str(e), 500\nif __name__ == '__main__':\n    app.run(debug=False, host='0.0.0.0')",
         "detail": "app",
         "documentation": {}
     },
