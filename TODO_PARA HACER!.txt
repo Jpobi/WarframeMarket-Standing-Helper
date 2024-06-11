@@ -5,9 +5,9 @@
 //TODO: Add progress bar
 //TODO: Mandar Current/total mods to progress bar
 //TODO: Add error handling
-#Que si el factionnames de un mod tiene una coma te muestre un (+) al lado del logo de la faction
+
 #Mostrar FECHA DE LAST UPDATE (de cada mod?)
-#Faction icons con fonts de https://fontello.com/
+
 #"update THIS mod to the database" button en cada CARD
 #Update solo la lista seleccionada/visible en la base de datos
 #Update loading message (y porcentaje?) modal
@@ -36,3 +36,5 @@ flask run --host=0.0.0.0
 #DONE:  HACER SITIO WEB ELEGÍS ENTRE LA LISTA DE FACTIONS Y TE DÁ LOS RESULTADOS PARA CUALES VALE MÁS LA PENA GASTAR STANDING
 #DONE:* GUARDAR Y MOMSTRAR cuantos PUNTOS HAY EN LAS ULTIMAS48HS (Y 90 DIAS) - Y ordenar por más vendidos
 #DONE: Mandar Progreso al frontend!
+#Faction icons con fonts de https://fontello.com/
+#Que si el factionnames de un mod tiene una coma te muestre un (+) al lado del logo de la faction
