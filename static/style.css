@@ -133,6 +133,7 @@ form{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .highlighted{
@@ -170,4 +171,17 @@ form{
     top: -66px;
     right: -25px;
     z-index: 0;
+}
+
+.faction_plus{
+    position: absolute;
+    width: 22px;
+    top: -23px;
+    right: -30px;
+    background-color: bisque;
+    border-radius: 100%;
+}
+
+.hasTextIcons {
+    font-family: "mkhelper_icons";
 }

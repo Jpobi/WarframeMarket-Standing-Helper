@@ -105,6 +105,11 @@ function createModCard(mod,orderType="") {
                 <p><strong>Most Repeated Price:</strong> ${mod.mostRepeatedOffer} pl</p>
                 <p class="highlighted"><strong>Amount Sold 48Hs:</strong> ${mod.amount48} units</p>`;
     }
+
+    let factionPlusImg = '';
+    if (mod.factionNames && mod.factionNames.includes(',')) {
+        factionPlusImg = '<img class="faction_plus" src="/static/faction_logos/plus.png" alt="Faction Logo">';
+    }
     card.innerHTML = `
         <h2>${mod.name}</h2>
         <div class="card-content">
@@ -114,6 +119,7 @@ function createModCard(mod,orderType="") {
             <p><strong>Factions:</strong> ${mod.factionNames}</p>
             <p><strong>URL:</strong> <a href="https://warframe.market/items/${mod.url_name}" target="_blank">warframe.market</a></p>
             <img class="faction_logo" src="${factionLogoSrc}" alt="Faction Logo">
+            ${factionPlusImg}
         </div>
     `;
 
