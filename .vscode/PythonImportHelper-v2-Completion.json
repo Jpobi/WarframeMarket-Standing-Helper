@@ -33,6 +33,30 @@
         "documentation": {}
     },
     {
+        "label": "SocketIO",
+        "importPath": "flask_socketio",
+        "description": "flask_socketio",
+        "isExtraImport": true,
+        "detail": "flask_socketio",
+        "documentation": {}
+    },
+    {
+        "label": "emit",
+        "importPath": "flask_socketio",
+        "description": "flask_socketio",
+        "isExtraImport": true,
+        "detail": "flask_socketio",
+        "documentation": {}
+    },
+    {
+        "label": "emit",
+        "importPath": "flask_socketio",
+        "description": "flask_socketio",
+        "isExtraImport": true,
+        "detail": "flask_socketio",
+        "documentation": {}
+    },
+    {
         "label": "update_database",
         "importPath": "wfmapi",
         "description": "wfmapi",
@@ -252,7 +276,16 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def updateMods():\n    try:\n        update_database()\n        return \"ok\"\n    except Exception as e:\n        return str(e), 500\nif __name__ == '__main__':\n    app.run(debug=False, host='0.0.0.0')",
+        "peekOfCode": "def updateMods():\n    try:\n        update_database()\n        return \"ok\"\n    except Exception as e:\n        return str(e), 500\n@socketio.on('start_task')\ndef handle_start_task():\n    update_database()\nif __name__ == '__main__':",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "handle_start_task",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def handle_start_task():\n    update_database()\nif __name__ == '__main__':\n    app.run(debug=False, host='0.0.0.0')",
         "detail": "app",
         "documentation": {}
     },
@@ -261,7 +294,16 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef home():\n    # update_database()\n    conn = sqlite3.connect('mod_database.db')\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, name FROM Faction\")\n    factions = cursor.fetchall()\n    cursor.execute(\"\"\"",
+        "peekOfCode": "app = Flask(__name__)\nsocketio = SocketIO(app)\n@app.route('/')\ndef home():\n    # update_database()\n    conn = sqlite3.connect('mod_database.db')\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, name FROM Faction\")\n    factions = cursor.fetchall()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "socketio",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "socketio = SocketIO(app)\n@app.route('/')\ndef home():\n    # update_database()\n    conn = sqlite3.connect('mod_database.db')\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, name FROM Faction\")\n    factions = cursor.fetchall()\n    cursor.execute(\"\"\"",
         "detail": "app",
         "documentation": {}
     },
@@ -414,7 +456,7 @@
         "kind": 2,
         "importPath": "wfmapi",
         "description": "wfmapi",
-        "peekOfCode": "def update_database():\n    conn = sqlite3.connect('mod_database.db')\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, url_name FROM Mod\")\n    mod_tuples = cursor.fetchall()\n    mods = [ModDTO(id, url_name) for id, url_name in mod_tuples]\n    for mod in mods:\n        update_mod_prices(mod)\n        print_item(mod)\n        cursor.execute(",
+        "peekOfCode": "def update_database():\n    conn = sqlite3.connect('mod_database.db')\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, url_name FROM Mod\")\n    mod_tuples = cursor.fetchall()\n    mods = [ModDTO(id, url_name) for id, url_name in mod_tuples]\n    index=1\n    for mod in mods:\n        update_mod_prices(mod)\n        print_item(mod)",
         "detail": "wfmapi",
         "documentation": {}
     }

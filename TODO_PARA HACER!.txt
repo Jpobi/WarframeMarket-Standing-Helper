@@ -1,8 +1,12 @@
 #DATO DE "SIGUIENTE PRECIO APENAS MAS ALTO QUE EL MAS REPETIDO" 
 #AUTO-VENDER! (A ESE ↑ PRECIO -1PL)
 #Mostrar el precio max vendido para 48hs y 90dias (y capaz su fecha y/o cuantos se vendieron en aprox el mismo rango de 2 o 3 pl)
-#Que si el factionnames de un mod tiene una coma te muestre un (+) al lado del logo de la faction
 
+//TODO: Add progress bar
+//TODO: Mandar Current/total mods to progress bar
+//TODO: Add error handling
+#Que si el factionnames de un mod tiene una coma te muestre un (+) al lado del logo de la faction
+#Mostrar FECHA DE LAST UPDATE (de cada mod?)
 #Faction icons con fonts de https://fontello.com/
 #"update THIS mod to the database" button en cada CARD
 #Update solo la lista seleccionada/visible en la base de datos
@@ -31,3 +35,4 @@ flask run --host=0.0.0.0
 
 #DONE:  HACER SITIO WEB ELEGÍS ENTRE LA LISTA DE FACTIONS Y TE DÁ LOS RESULTADOS PARA CUALES VALE MÁS LA PENA GASTAR STANDING
 #DONE:* GUARDAR Y MOMSTRAR cuantos PUNTOS HAY EN LAS ULTIMAS48HS (Y 90 DIAS) - Y ordenar por más vendidos
+#DONE: Mandar Progreso al frontend!

@@ -7,10 +7,12 @@
     <link rel="manifest" href="/static/manifest.json">
     <link rel="stylesheet" href="/static/style.css">
     <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
 </head>
 <body>
     <h1>Choose a Faction</h1>
     <div class="form-container">
+        <div id="progress">Progress: 0%</div>
         <form>
             <button type="button" class="custom-button" onclick="updateTable()">Force Update Table</button>
             <div class="custom-select-wrapper">
@@ -31,7 +33,7 @@
                     </select>
                 </div>
             </div>
-            <button type="button" id="fetch-button" class="custom-button" onclick="updateDatabase()">Fetch WFMarket</button>
+            <button type="button" id="fetch-button" class="custom-button" onclick="startTask()">Fetch WFMarket</button>
         </form>
         <div class="cards-container" id="cards-container">
             {% for mod in mods %}

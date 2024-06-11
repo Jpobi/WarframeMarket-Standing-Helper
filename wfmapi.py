@@ -2,6 +2,7 @@ from collections import Counter
 from datetime import datetime
 from typing import List
 import sqlite3
+from flask_socketio import emit
 import pywmapi as wm
 from pywmapi.common import Platform, OrderType
 from pywmapi.auth import UserShort
@@ -51,10 +52,13 @@ def update_database():
     mod_tuples = cursor.fetchall()
 
     mods = [ModDTO(id, url_name) for id, url_name in mod_tuples]
-
+    index=1
     for mod in mods:
         update_mod_prices(mod)
         print_item(mod)
+        progress=round(index / len(mods) * 100,2)
+        index+=1
+        emit('task_progress', progress)
         cursor.execute(
             "UPDATE Mod SET Price48hs = ?, Price90d = ?, offerPrice = ?, mostRepeatedOffer = ?, amount48 = ?, amount90 = ?, lastUpdated = ? WHERE id = ?", 
             (mod.avg_48h, mod.avg_90d, mod.avg_offer, mod.most_repeated_offer, mod.amount_48, mod.amount_90, datetime.now(), mod.id)

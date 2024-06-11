@@ -43,7 +43,29 @@ function updateDatabase() {
             alert("Error updating database. Check console for details.");
         });
 }
+var socket = io();
 
+var btn=document.getElementById("fetch-button");
+var oldtext=btn.textContent;
+function startTask() {
+    btn.textContent="Updating...";
+    btn.disabled = true;
+    socket.emit('start_task');
+}
+
+//TODO: Add progress bar
+//TODO: Mandar Current/total mods
+socket.on('task_progress', function(progress) {
+    console.log("progress: ",progress);
+    if (progress == 100) {
+        btn.textContent=oldtext;
+        btn.disabled = false;
+        }
+        document.getElementById('progress').innerText = 'Progress: ' + progress.toString() + '%';
+        });
+        
+//TODO: Add error handling
+//socket onerror -> print error
 function updateTable() {
     var factionSelect = document.getElementById('factions');
     var orderSelect = document.getElementById('orderType');

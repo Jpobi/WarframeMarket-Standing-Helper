@@ -1,9 +1,10 @@
 # app.py
 import sqlite3
 from flask import Flask, jsonify, render_template
+from flask_socketio import SocketIO, emit
 from wfmapi import update_database, print_item
 app = Flask(__name__)
-
+socketio = SocketIO(app)
 @app.route('/')
 def home():
     # update_database()
@@ -72,6 +73,11 @@ def updateMods():
         return "ok"
     except Exception as e:
         return str(e), 500
+
+@socketio.on('start_task')
+def handle_start_task():
+    update_database()
+
 
 if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0')
