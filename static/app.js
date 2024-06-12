@@ -9,13 +9,27 @@ if ('serviceWorker' in navigator) {
 }
 
 
-
 document.addEventListener('DOMContentLoaded', function() {
     var factionSelect = document.getElementById('factions');
     var orderSelect = document.getElementById('orderType');
     factionSelect.addEventListener('change', updateTable);
     orderSelect.addEventListener('change', updateTable);
+    $('.selectpicker').selectpicker();
+    
+    $('#factionsDropdown').change(function(){
+     $('#factions').val($('#factionsDropdown').val()?.join(",")||0);
+     console.log($('#factions').val());
+     updateTable();
+    });
+    
 });
+
+
+function setFactions(factionList) {
+    $('.selectpicker').val(factionList);
+    $('.selectpicker').selectpicker('refresh');
+    $('.selectpicker').change();
+}
 function updateDatabase() {
     var btn=document.getElementById("fetch-button");
     var oldtext=btn.textContent;
@@ -126,6 +140,7 @@ function createModCard(mod,orderType="") {
             <p><strong>URL:</strong> <a href="https://warframe.market/items/${mod.url_name}" target="_blank">warframe.market</a></p>
             <img class="faction_logo" src="${factionLogoSrc}" alt="Faction Logo">
             ${factionPlusImg}
+            <p class="greyed">${mod.lastUpdated}</p>
         </div>
     `;
 

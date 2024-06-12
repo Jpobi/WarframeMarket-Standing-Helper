@@ -14,7 +14,7 @@ def home():
     cursor.execute("SELECT id, name FROM Faction")
     factions = cursor.fetchall()
 
-    cursor.execute("""
+    cursor.execute(r"""
     SELECT 
         Mod.name, 
         ROUND(MAX(Price48hs,Price90d), 2) AS MaxAvgSold,
@@ -24,7 +24,9 @@ def home():
         Mod.url_name, 
         amount48, 
         amount90,
-        Faction.id as factionId
+        Faction.id as factionId,
+        strftime('%Y-%m-%d %H:%M:%S', Mod.lastUpdated) AS lastUpdated
+
     FROM Mod 
     JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id 
     JOIN Faction ON Mod_Faction.faction_id = Faction.id 
@@ -38,7 +40,8 @@ def home():
 # GROUP_CONCAT(Faction.name) as factionNames,
 @app.route('/mods/<faction_id>/<orderType>')
 def get_mods_by_faction(faction_id,orderType="demand"):
-    faction_filter = "" if faction_id == "0" else "WHERE Mod_Faction.faction_id = {}".format(faction_id)
+    print("faction ids: ",faction_id)
+    faction_filter = "" if faction_id == "0" else "WHERE Mod_Faction.faction_id IN ({})".format(faction_id)
     queryString = """
     SELECT 
         Mod.name, 
@@ -49,7 +52,8 @@ def get_mods_by_faction(faction_id,orderType="demand"):
         Mod.url_name,
         amount48,
         amount90,
-        Faction.id as factionId
+        Faction.id as factionId,
+        strftime('%%Y-%%m-%%d %%H:%%M:%%S', Mod.lastUpdated) AS lastUpdated
     FROM Mod 
     JOIN 
         (SELECT 
@@ -68,6 +72,7 @@ def get_mods_by_faction(faction_id,orderType="demand"):
     {}
     GROUP BY Mod.name
 """.format(faction_filter)
+
     if orderType == "price":
         queryString += " ORDER BY offerPrice DESC"
     else:

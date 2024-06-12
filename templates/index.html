@@ -9,26 +9,39 @@
     <link rel="stylesheet" href="/static/css/mkhelper_icons.css">
     <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
     <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
 </head>
 <body>
     <h1>Choose a Faction</h1>
     <div class="form-container">
         <div id="progress">Progress: 0%</div>
         <form>
-            <button type="button" class="custom-button" onclick="updateTable()">Force Update Table</button>
-            <div class="custom-select-wrapper">
-                <div class="custom-select">
-                    <select class="hasTextIcons" title="factions" name="factions" id="factions">
-                        <option class="hasTextIcons" value="0">All</option>
-                        {% for faction in factions %}
-                            <option class="hasTextIcons" value="{{ faction.id }}">&#xe80{{ faction.id-1 }};  {{ faction.name }}</option>
-                        {% endfor %}
-                    </select>
+            <div class="col buttonsContainer">
+                <button type="button" class="custom-button" onclick="updateTable()">Force Update Table</button>
+                <div class="row">
+                    <button type="button" class="custom-button" onclick="setFactions(['1','2','3'])">Suda-Arbi-Steel</button>
+                    <button type="button" class="custom-button" onclick="setFactions(['4','5','6'])">New-Red-Perrin</button>
                 </div>
             </div>
             <div class="custom-select-wrapper">
                 <div class="custom-select">
-                    <select title="orderType" name="orderType" id="orderType">
+                        <select title="All Factions" name="factionsDropdown" id="factionsDropdown" class="hasTextIcons form-control selectpicker" data-live-search="true" multiple>
+                            <!-- <option id="factionOption_0" class="hasTextIcons" value="0">All</option> -->
+                            {% for faction in factions %}
+                                <option class="hasTextIcons" id="factionOption_{{ faction.id }}" value="{{ faction.id }}">&#xe80{{ faction.id-1 }};  {{ faction.name }}</option>
+                            {% endfor %}
+                        </select>
+                        <br /><br />
+                        <input type="hidden" name="factions" id="factions" />
+                </div>
+            </div>
+            <div class="custom-select-wrapper">
+                <div class="custom-select">
+                    <select class="hasTextIcons" title="orderType" name="orderType" id="orderType">
                             <option value="demand">Demand</option>
                             <option value="price">Price</option>
                     </select>
@@ -53,6 +66,7 @@
                         {% if mod.factionNames and ',' in mod.factionNames %}
                             <img class="faction_plus" src="/static/faction_logos/plus.png" alt="Faction Logo">
                         {% endif %}
+                        <p class="greyed">{{mod.lastUpdated}}</p>
                     </div>
                 </div>
             {% endfor %}

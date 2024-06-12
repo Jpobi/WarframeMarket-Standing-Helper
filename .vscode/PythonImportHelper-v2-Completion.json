@@ -258,7 +258,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def home():\n    # update_database()\n    conn = sqlite3.connect('mod_database.db')\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, name FROM Faction\")\n    factions = cursor.fetchall()\n    cursor.execute(\"\"\"\n    SELECT \n        Mod.name, ",
+        "peekOfCode": "def home():\n    # update_database()\n    conn = sqlite3.connect('mod_database.db')\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, name FROM Faction\")\n    factions = cursor.fetchall()\n    cursor.execute(r\"\"\"\n    SELECT \n        Mod.name, ",
         "detail": "app",
         "documentation": {}
     },
@@ -267,7 +267,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def get_mods_by_faction(faction_id,orderType=\"demand\"):\n    faction_filter = \"\" if faction_id == \"0\" else \"WHERE Mod_Faction.faction_id = {}\".format(faction_id)\n    queryString = \"\"\"\n    SELECT \n        Mod.name, \n        ROUND(MAX(Price48hs,Price90d), 2) AS MaxAvgSold,\n        ROUND(offerPrice, 2) AS offerPrice,\n        ROUND(mostRepeatedOffer, 2) AS mostRepeatedOffer,\n        factionNames,\n        Mod.url_name,",
+        "peekOfCode": "def get_mods_by_faction(faction_id,orderType=\"demand\"):\n    print(\"faction ids: \",faction_id)\n    faction_filter = \"\" if faction_id == \"0\" else \"WHERE Mod_Faction.faction_id IN ({})\".format(faction_id)\n    queryString = \"\"\"\n    SELECT \n        Mod.name, \n        ROUND(MAX(Price48hs,Price90d), 2) AS MaxAvgSold,\n        ROUND(offerPrice, 2) AS offerPrice,\n        ROUND(mostRepeatedOffer, 2) AS mostRepeatedOffer,\n        factionNames,",
         "detail": "app",
         "documentation": {}
     },
@@ -294,7 +294,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "socketio = SocketIO(app)\n@app.route('/')\ndef home():\n    # update_database()\n    conn = sqlite3.connect('mod_database.db')\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, name FROM Faction\")\n    factions = cursor.fetchall()\n    cursor.execute(\"\"\"",
+        "peekOfCode": "socketio = SocketIO(app)\n@app.route('/')\ndef home():\n    # update_database()\n    conn = sqlite3.connect('mod_database.db')\n    conn.row_factory = sqlite3.Row\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, name FROM Faction\")\n    factions = cursor.fetchall()\n    cursor.execute(r\"\"\"",
         "detail": "app",
         "documentation": {}
     },

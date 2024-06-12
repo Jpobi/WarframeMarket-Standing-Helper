@@ -185,3 +185,18 @@ form{
 .hasTextIcons {
     font-family: "mkhelper_icons";
 }
+
+.dropdown-toggle{
+    height: 138%;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.greyed{
+    color: #555;
+    text-align:right;
+    font-size: 12px;
+}
