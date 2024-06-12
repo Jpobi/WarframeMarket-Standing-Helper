@@ -312,7 +312,7 @@
         "kind": 5,
         "importPath": "createDatabase",
         "description": "createDatabase",
-        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n# Create the Mod table\n# cursor.execute('''CREATE TABLE IF NOT EXISTS Mod (\n#                     id INTEGER PRIMARY KEY,\n#                     name TEXT UNIQUE,\n#                     url_name TEXT UNIQUE,\n#                     Price48hs REAL,\n#                     Price90d REAL\n#                 )''')",
+        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n# Create the Mod table\ncursor.execute('''CREATE TABLE IF NOT EXISTS Mod (\n                    id INTEGER PRIMARY KEY,\n                    name TEXT UNIQUE,\n                    url_name TEXT UNIQUE,\n                    Price48hs REAL,\n                    Price90d REAL\n                )''')",
         "detail": "createDatabase",
         "documentation": {}
     },
@@ -321,7 +321,7 @@
         "kind": 5,
         "importPath": "createDatabase",
         "description": "createDatabase",
-        "peekOfCode": "cursor = conn.cursor()\n# Create the Mod table\n# cursor.execute('''CREATE TABLE IF NOT EXISTS Mod (\n#                     id INTEGER PRIMARY KEY,\n#                     name TEXT UNIQUE,\n#                     url_name TEXT UNIQUE,\n#                     Price48hs REAL,\n#                     Price90d REAL\n#                 )''')\n# # Create the Faction table",
+        "peekOfCode": "cursor = conn.cursor()\n# Create the Mod table\ncursor.execute('''CREATE TABLE IF NOT EXISTS Mod (\n                    id INTEGER PRIMARY KEY,\n                    name TEXT UNIQUE,\n                    url_name TEXT UNIQUE,\n                    Price48hs REAL,\n                    Price90d REAL\n                )''')\n# Create the Faction table",
         "detail": "createDatabase",
         "documentation": {}
     },

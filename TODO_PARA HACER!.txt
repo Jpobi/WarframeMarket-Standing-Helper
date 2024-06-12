@@ -3,7 +3,7 @@
 #Mostrar el precio max vendido para 48hs y 90dias (y capaz su fecha y/o cuantos se vendieron en aprox el mismo rango de 2 o 3 pl)
 
 //TODO: Add progress bar
-#TODO: Filter by (unique to this faction)
+#TODO: Sort by other prices (aka avg price sold)
 #Mostrar FECHA DE LAST UPDATE (de cada mod?)
 
 #"update THIS mod to the database" button en cada CARD
