@@ -55,6 +55,7 @@ with open('./data/mod_prices.csv', newline='', encoding='utf-8') as csvfile:
         cursor.execute('''INSERT OR IGNORE INTO Mod_Faction (mod_id, faction_id) VALUES (?, ?)''', (mod_id, faction_id))
 
 #FIX FACTION ID
+#cursor.execute("INSERT OR IGNORE INTO Mod_Faction (mod_id, faction_id) VALUES (179, 2)")
 # cursor.execute("UPDATE Mod_Faction SET mod_id =194 WHERE mod_id = 20")
 # cursor.execute("DELETE FROM Mod WHERE id = 20")
 
