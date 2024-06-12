@@ -80,17 +80,23 @@ def get_mods_by_faction(faction_id,orderType="demand"):
     return jsonify([dict(mod) for mod in mods])
 
 # def updateMods(faction_id,orderType="demand"):
-@app.route('/updateMods')
-def updateMods():
+# @app.route('/updateMods')
+# def updateMods():
+#     try:
+#         update_database()
+#         return "ok"
+#     except Exception as e:
+#         return str(e), 500
+
+@socketio.on('start_updateMods')
+def handle_start_task():
     try:
         update_database()
         return "ok"
     except Exception as e:
+        print("error: ",e)
+        emit('error', e.with_traceback())
         return str(e), 500
-
-@socketio.on('start_task')
-def handle_start_task():
-    update_database()
 
 
 if __name__ == '__main__':

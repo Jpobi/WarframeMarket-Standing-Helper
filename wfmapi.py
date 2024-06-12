@@ -55,8 +55,9 @@ def update_database():
     index=1
     for mod in mods:
         update_mod_prices(mod)
+        print(f"Progress: {index}/{len(mods)}")
         print_item(mod)
-        progress=round(index / len(mods) * 100,2)
+        progress={'index': index, 'total': len(mods), 'percent': round(index / len(mods) * 100,2)}
         index+=1
         emit('task_progress', progress)
         cursor.execute(

@@ -272,20 +272,11 @@
         "documentation": {}
     },
     {
-        "label": "updateMods",
-        "kind": 2,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "def updateMods():\n    try:\n        update_database()\n        return \"ok\"\n    except Exception as e:\n        return str(e), 500\n@socketio.on('start_task')\ndef handle_start_task():\n    update_database()\nif __name__ == '__main__':",
-        "detail": "app",
-        "documentation": {}
-    },
-    {
         "label": "handle_start_task",
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def handle_start_task():\n    update_database()\nif __name__ == '__main__':\n    app.run(debug=False, host='0.0.0.0')",
+        "peekOfCode": "def handle_start_task():\n    try:\n        update_database()\n        return \"ok\"\n    except Exception as e:\n        print(\"error: \",e)\n        emit('error', e.with_traceback())\n        return str(e), 500\nif __name__ == '__main__':\n    app.run(debug=False, host='0.0.0.0')",
         "detail": "app",
         "documentation": {}
     },
@@ -321,7 +312,7 @@
         "kind": 5,
         "importPath": "createDatabase",
         "description": "createDatabase",
-        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n# Create the Mod table\ncursor.execute('''CREATE TABLE IF NOT EXISTS Mod (\n                    id INTEGER PRIMARY KEY,\n                    name TEXT UNIQUE,\n                    url_name TEXT UNIQUE,\n                    Price48hs REAL,\n                    Price90d REAL\n                )''')",
+        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n# Create the Mod table\n# cursor.execute('''CREATE TABLE IF NOT EXISTS Mod (\n#                     id INTEGER PRIMARY KEY,\n#                     name TEXT UNIQUE,\n#                     url_name TEXT UNIQUE,\n#                     Price48hs REAL,\n#                     Price90d REAL\n#                 )''')",
         "detail": "createDatabase",
         "documentation": {}
     },
@@ -330,7 +321,7 @@
         "kind": 5,
         "importPath": "createDatabase",
         "description": "createDatabase",
-        "peekOfCode": "cursor = conn.cursor()\n# Create the Mod table\ncursor.execute('''CREATE TABLE IF NOT EXISTS Mod (\n                    id INTEGER PRIMARY KEY,\n                    name TEXT UNIQUE,\n                    url_name TEXT UNIQUE,\n                    Price48hs REAL,\n                    Price90d REAL\n                )''')\n# Create the Faction table",
+        "peekOfCode": "cursor = conn.cursor()\n# Create the Mod table\n# cursor.execute('''CREATE TABLE IF NOT EXISTS Mod (\n#                     id INTEGER PRIMARY KEY,\n#                     name TEXT UNIQUE,\n#                     url_name TEXT UNIQUE,\n#                     Price48hs REAL,\n#                     Price90d REAL\n#                 )''')\n# # Create the Faction table",
         "detail": "createDatabase",
         "documentation": {}
     },
@@ -456,7 +447,7 @@
         "kind": 2,
         "importPath": "wfmapi",
         "description": "wfmapi",
-        "peekOfCode": "def update_database():\n    conn = sqlite3.connect('mod_database.db')\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, url_name FROM Mod\")\n    mod_tuples = cursor.fetchall()\n    mods = [ModDTO(id, url_name) for id, url_name in mod_tuples]\n    index=1\n    for mod in mods:\n        update_mod_prices(mod)\n        print_item(mod)",
+        "peekOfCode": "def update_database():\n    conn = sqlite3.connect('mod_database.db')\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT id, url_name FROM Mod\")\n    mod_tuples = cursor.fetchall()\n    mods = [ModDTO(id, url_name) for id, url_name in mod_tuples]\n    index=1\n    for mod in mods:\n        update_mod_prices(mod)\n        print(f\"Progress: {index}/{len(mods)}\")",
         "detail": "wfmapi",
         "documentation": {}
     }

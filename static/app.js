@@ -50,7 +50,7 @@ var oldtext=btn.textContent;
 function startTask() {
     btn.textContent="Updating...";
     btn.disabled = true;
-    socket.emit('start_task');
+    socket.emit('start_updateMods');
 }
 
 //TODO: Add progress bar
@@ -61,11 +61,17 @@ socket.on('task_progress', function(progress) {
         btn.textContent=oldtext;
         btn.disabled = false;
         }
-        document.getElementById('progress').innerText = 'Progress: ' + progress.toString() + '%';
-        });
-        
-//TODO: Add error handling
-//socket onerror -> print error
+        document.getElementById('progress').innerText = 'Progress: ' + progress.index.toString() + '/' + progress.total.toString() + ' - '+progress.percent.toString() + '%';
+});
+
+socket.on('error', function(error) {
+    console.error('Error:', error);
+    btn.textContent=oldtext;
+    btn.disabled = false;
+    document.getElementById('progress').innerText = 'Error: ' + error;
+    alert("Error updating database. Check console for details.");
+});
+
 function updateTable() {
     var factionSelect = document.getElementById('factions');
     var orderSelect = document.getElementById('orderType');
