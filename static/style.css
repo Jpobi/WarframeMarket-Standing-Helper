@@ -199,4 +199,6 @@ form{
     color: #555;
     text-align:right;
     font-size: 12px;
+    float: right;
+    margin: 0 !important;
 }

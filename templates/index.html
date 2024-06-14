@@ -29,7 +29,7 @@
             </div>
             <div class="custom-select-wrapper">
                 <div class="custom-select">
-                        <select title="All Factions" name="factionsDropdown" id="factionsDropdown" class="hasTextIcons form-control selectpicker" data-live-search="true" multiple>
+                        <select title="All Factions" name="factionsDropdown" id="factionsDropdown" class="hasTextIcons form-control selectpicker" data-live-search="true" default="0" multiple>
                             <!-- <option id="factionOption_0" class="hasTextIcons" value="0">All</option> -->
                             {% for faction in factions %}
                                 <option class="hasTextIcons" id="factionOption_{{ faction.id }}" value="{{ faction.id }}">&#xe80{{ faction.id-1 }};  {{ faction.name }}</option>
@@ -74,4 +74,9 @@
     </div>
     <script src="/static/app.js"></script>
 </body>
+<script>
+    // JavaScript to set default selected values
+    document.getElementById('factions').value = ['0'];
+    document.getElementById('factionsDropdown').value = ['0'];
+  </script>
 </html>

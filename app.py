@@ -39,7 +39,6 @@ def home():
 
 @app.route('/mods/<faction_id>/<orderType>')
 def get_mods_by_faction(faction_id, orderType="demand"):
-    print("faction ids: ", faction_id)
     
     faction_filter = "" if faction_id == "0" else "WHERE Mod_Faction.faction_id IN ({})".format(faction_id)
     

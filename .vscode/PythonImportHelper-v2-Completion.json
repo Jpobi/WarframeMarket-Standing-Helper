@@ -267,7 +267,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def get_mods_by_faction(faction_id, orderType=\"demand\"):\n    print(\"faction ids: \", faction_id)\n    faction_filter = \"\" if faction_id == \"0\" else \"WHERE Mod_Faction.faction_id IN ({})\".format(faction_id)\n    queryString = f\"\"\"\n    SELECT \n        Mod.name, \n        ROUND(MAX(Price48hs, Price90d), 2) AS MaxAvgSold,\n        ROUND(offerPrice, 2) AS offerPrice,\n        ROUND(mostRepeatedOffer, 2) AS mostRepeatedOffer,\n        factionNames,",
+        "peekOfCode": "def get_mods_by_faction(faction_id, orderType=\"demand\"):\n    faction_filter = \"\" if faction_id == \"0\" else \"WHERE Mod_Faction.faction_id IN ({})\".format(faction_id)\n    queryString = f\"\"\"\n    SELECT \n        Mod.name, \n        ROUND(MAX(Price48hs, Price90d), 2) AS MaxAvgSold,\n        ROUND(offerPrice, 2) AS offerPrice,\n        ROUND(mostRepeatedOffer, 2) AS mostRepeatedOffer,\n        factionNames,\n        Mod.url_name,",
         "detail": "app",
         "documentation": {}
     },

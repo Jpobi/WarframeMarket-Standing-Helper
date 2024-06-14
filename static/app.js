@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     $('#factionsDropdown').change(function(){
      $('#factions').val($('#factionsDropdown').val()?.join(",")||0);
-     console.log($('#factions').val());
      updateTable();
     });
     
