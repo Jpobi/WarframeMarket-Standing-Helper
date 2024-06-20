@@ -339,7 +339,7 @@
         "kind": 5,
         "importPath": "report_by_demand",
         "description": "report_by_demand",
-        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id ",
+        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name, ', '), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id ",
         "detail": "report_by_demand",
         "documentation": {}
     },
@@ -348,7 +348,7 @@
         "kind": 5,
         "importPath": "report_by_demand",
         "description": "report_by_demand",
-        "peekOfCode": "cursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id \n    JOIN Faction ON Mod_Faction.faction_id = Faction.id ",
+        "peekOfCode": "cursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name, ', '), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id \n    JOIN Faction ON Mod_Faction.faction_id = Faction.id ",
         "detail": "report_by_demand",
         "documentation": {}
     },
@@ -375,7 +375,7 @@
         "kind": 5,
         "importPath": "report_by_price",
         "description": "report_by_price",
-        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id ",
+        "peekOfCode": "conn = sqlite3.connect('mod_database.db')\ncursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name, ', '), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id ",
         "detail": "report_by_price",
         "documentation": {}
     },
@@ -384,7 +384,7 @@
         "kind": 5,
         "importPath": "report_by_price",
         "description": "report_by_price",
-        "peekOfCode": "cursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id \n    JOIN Faction ON Mod_Faction.faction_id = Faction.id ",
+        "peekOfCode": "cursor = conn.cursor()\n#alter table\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# cursor.execute(\"ALTER TABLE Mod ADD COLUMN amount48 INTEGER;\")\n# Retrieve mods sorted by price in descending order\ncursor.execute(\"\"\"\n    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name, ', '), Mod.url_name, amount48, amount90 \n    FROM Mod \n    JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id \n    JOIN Faction ON Mod_Faction.faction_id = Faction.id ",
         "detail": "report_by_price",
         "documentation": {}
     },

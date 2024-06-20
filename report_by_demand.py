@@ -11,7 +11,7 @@ cursor = conn.cursor()
 
 # Retrieve mods sorted by price in descending order
 cursor.execute("""
-    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name), Mod.url_name, amount48, amount90 
+    SELECT Mod.name, MAX(Price48hs, Price90d) AS MaxAvgSold,offerPrice,mostRepeatedOffer, GROUP_CONCAT(Faction.name, ', '), Mod.url_name, amount48, amount90 
     FROM Mod 
     JOIN Mod_Faction ON Mod.id = Mod_Faction.mod_id 
     JOIN Faction ON Mod_Faction.faction_id = Faction.id 

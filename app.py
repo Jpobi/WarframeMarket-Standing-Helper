@@ -20,7 +20,7 @@ def home():
         ROUND(MAX(Price48hs,Price90d), 2) AS MaxAvgSold,
         ROUND(offerPrice, 2) AS offerPrice,
         ROUND(mostRepeatedOffer, 2) AS mostRepeatedOffer,
-        GROUP_CONCAT(Faction.name) AS factionNames, 
+        GROUP_CONCAT(Faction.name, ', ') AS factionNames, 
         Mod.url_name, 
         amount48, 
         amount90,
@@ -58,7 +58,7 @@ def get_mods_by_faction(faction_id, orderType="demand"):
     JOIN 
         (SELECT 
             Mod_Faction.mod_id, 
-            GROUP_CONCAT(Faction.name) as factionNames
+            GROUP_CONCAT(Faction.name, ', ') as factionNames
         FROM 
             Mod_Faction 
         JOIN 

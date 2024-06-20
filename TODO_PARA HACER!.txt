@@ -1,5 +1,8 @@
 #DATO DE "SIGUIENTE PRECIO APENAS MAS ALTO QUE EL MAS REPETIDO" (ej: 19 19 19 19 *25*) 
+Autosell----
 #AUTO-VENDER! (A ESE ↑ PRECIO -1PL)
+#Button to auto sell one of each of the (top 10 of) currently shoown at said price (A ESE ↑ PRECIO -1PL)
+
 #Mostrar el precio max vendido para 48hs y 90dias (y capaz su fecha y/o cuantos se vendieron en aprox el mismo rango de 2 o 3 pl)
 #amount of current online offers
 //TODO: Add progress bar
